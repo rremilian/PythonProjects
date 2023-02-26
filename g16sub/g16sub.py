@@ -30,9 +30,6 @@ with open(f"{pwd}/{input_name}", "r") as f:
         else:
             mem="4GB" # DEFAULT
 
-print(nproc)
-print(mem)
-
 with open("submit-condor", "w") as output:
     output.write("Universe = vanilla\n")
     output.write(f"Request_Cpus = {nproc}\n")
