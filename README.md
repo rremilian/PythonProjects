@@ -9,3 +9,6 @@ These are some of my personal projects developed during my Python learning journ
 ### **g16sub**
 
 <p align="justify">This code is an automation script used for submission of Gaussian Job File (GJF) to a cluster that uses HTCondor workload management system. The script takes as an argument the GJF and retrieve from that the number of CPUs and the memory that must be allocated to that job. If the GJF does not have any information regarding the number of CPUs or the necessary memory, the script will allocate by default 4 CPUs and 4 GB of memory. The script is configured for Gaussian 16.</p>
+
+### **Pong**
+<p align="justify">This code is a simple pong game made using classes. One of the players plays with the arrow keys and the other one plays with WASD keys.</p>
